@@ -32,7 +32,7 @@ if(isset($_POST['submitbtn'])){
                     return false;
 
 
-                    // mail("oiunachukwu@gmail.com", "reset", "$pw");
+                    // mail("oiunachukwu@gmail.com", "RESET PASSWORD", "$pw");
 
 					// Send new passowrd link to change link or passcode
 
