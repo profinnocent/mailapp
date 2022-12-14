@@ -51,10 +51,11 @@
 
 					<!-- modal body -->
 					<div class="modal-body">
-						<form>
+						<form action="../includes/forgetpw.php" method="POST">
 							<div class="form-group">
-								<input type="email" name="email2" class="form-control" placeholder="enter email registered with">
+								<input type="email" name="email2" class="form-control" placeholder="enter email you registered with">
 							</div>
+							<button class="btn btn-success" type="submit" name="submitbtn">Reset</button>
 						</form>
 					</div>
 

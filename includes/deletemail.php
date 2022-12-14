@@ -21,7 +21,7 @@ if(isset($_GET['id'])){
     
 }else{
     $error =urlencode('please login first');
-    header('location: ../public/index.php?error=' .$error);
+    header('location: ../public/index.php?error='.$error);
 }
 
 

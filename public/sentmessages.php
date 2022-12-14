@@ -46,6 +46,8 @@
  }
 ?>
 	<div class="container-fluid mt-5">
+	<h1>MESSAGE DETAILS</h1>
+
 		<div class="row">
 			<div class="col-md-6">
 				<div class="float-left">
