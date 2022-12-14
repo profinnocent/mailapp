@@ -69,15 +69,15 @@
 				?>
 
 				<tr>
-					<td><a href="sentmessages.php?id=<?php echo base64_encode($outboxid);?>">
+					<td><a href="sentmessages.php?id=<?php echo base64_encode($outboxid);?>&origin=1">
 						<?php if($senderpic == ''){ ?>
 						<img src="../assets/img/img2.jpeg" class="img-fluid rounded-circle" width="50" height="50">
 						<?php }else{ ?>
 							<img src="../includes/uploads/<?= $senderpic?>" class="img-fluid rounded-circle" width="50" height="50">
 						<?php } ?>
 						</a></td>
-					<td><a href="sentmessages.php?id=<?php echo base64_encode($outboxid);?>"><?=$sendermail?></a></td>
-					<td><a href="sentmessages.php?id=<?php echo base64_encode($outboxid);?>"><?=$subject?></a></td>
+					<td><a href="sentmessages.php?id=<?php echo base64_encode($outboxid);?>&origin=1"><?=$sendermail?></a></td>
+					<td><a href="sentmessages.php?id=<?php echo base64_encode($outboxid);?>&origin=1"><?=$subject?></a></td>
 					<td><?=$date?></td>
 					<td>
 						<a href="../includes/deletemail2.php?id=<?php echo base64_encode($outboxid);?>" class="btn btn-danger">delete</a>
