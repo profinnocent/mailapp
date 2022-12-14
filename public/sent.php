@@ -10,6 +10,9 @@
 				<div class="float-left">
 					<p>click <a href="dashboard.php">Here</a> to go back</p>
 				</div>
+				<div class="float-right">
+					<p><a href="compose.php">Compose a mail</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
